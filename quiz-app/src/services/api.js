@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Địa chỉ API Node.js
-const API_URL = "http://localhost:3000/api/questions";
+const API_URL = "http://localhost:8081/api/questions";
 
 export const fetchQuestions = async (amount = 10, category = '', difficulty = '') => {
   try {
