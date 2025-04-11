@@ -7,8 +7,7 @@ import ProgressBar from './ProgressBar';
 
 const categories = [
   { id: '', name: 'All Categories' },
-  { id: '9', name: 'General Knowledge' },
-  { id: '21', name: 'Sports' },
+  { id: '21', name: 'History' },
 ];
 
 const difficulties = ['easy', 'medium', 'hard'];
