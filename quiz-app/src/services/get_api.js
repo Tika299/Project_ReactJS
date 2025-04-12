@@ -382,6 +382,384 @@ const hardQuestions = {
   ]
 };
 
+const easyQuestionsVietnamVictory = {
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Sự kiện nào vào ngày 30 tháng 4 năm 1975 đánh dấu chiến thắng hoàn toàn của Việt Nam trong cuộc kháng chiến chống Mỹ?",
+      "correct_answer": "Giải phóng Sài Gòn",
+      "incorrect_answers": [
+        "Hiệp định Paris",
+        "Chiến thắng Điện Biên Phủ",
+        "Tổng tiến công Tết Mậu Thân"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Ai là Chủ tịch nước Việt Nam Dân chủ Cộng hòa trong suốt cuộc kháng chiến chống Mỹ?",
+      "correct_answer": "Hồ Chí Minh",
+      "incorrect_answers": [
+        "Võ Nguyên Giáp",
+        "Ngô Đình Diệm",
+        "Phạm Văn Đồng"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Tên gọi của chiến dịch cuối cùng dẫn đến giải phóng miền Nam năm 1975 là gì?",
+      "correct_answer": "Chiến dịch Hồ Chí Minh",
+      "incorrect_answers": [
+        "Chiến dịch Điện Biên Phủ",
+        "Chiến dịch Tây Nguyên",
+        "Chiến dịch Mậu Thân"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Hiệp định nào được ký năm 1973 buộc Mỹ rút quân khỏi Việt Nam?",
+      "correct_answer": "Hiệp định Paris",
+      "incorrect_answers": [
+        "Hiệp định Genève",
+        "Hiệp định Potsdam",
+        "Hiệp định Versailles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Tổ chức nào được thành lập năm 1960 để lãnh đạo phong trào cách mạng ở miền Nam?",
+      "correct_answer": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+      "incorrect_answers": [
+        "Đảng Cộng sản Việt Nam",
+        "Quân đội Nhân dân Việt Nam",
+        "Chính phủ Lâm thời miền Nam"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Thành phố Sài Gòn được đổi tên thành gì sau ngày 30 tháng 4 năm 1975?",
+      "correct_answer": "Thành phố Hồ Chí Minh",
+      "incorrect_answers": [
+        "Thành phố Hà Nội",
+        "Thành phố Đà Nẵng",
+        "Thành phố Cần Thơ"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Quân Giải phóng miền Nam Việt Nam được thành lập chính thức vào năm nào?",
+      "correct_answer": "1961",
+      "incorrect_answers": [
+        "1954",
+        "1965",
+        "1970"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Ai là Tổng thống cuối cùng của Việt Nam Cộng hòa đầu hàng ngày 30 tháng 4 năm 1975?",
+      "correct_answer": "Dương Văn Minh",
+      "incorrect_answers": [
+        "Ngô Đình Diệm",
+        "Nguyễn Văn Thiệu",
+        "Trần Văn Hương"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Cuộc kháng chiến chống Mỹ kéo dài trong khoảng thời gian bao lâu?",
+      "correct_answer": "21 năm (1954-1975)",
+      "incorrect_answers": [
+        "10 năm (1965-1975)",
+        "15 năm (1960-1975)",
+        "30 năm (1945-1975)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "War",
+      "question": "Tên gọi chính thức của Việt Nam sau khi thống nhất năm 1976 là gì?",
+      "correct_answer": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+      "incorrect_answers": [
+        "Việt Nam Dân chủ Cộng hòa",
+        "Cộng hòa miền Nam Việt Nam",
+        "Liên bang Việt Nam"
+      ]
+    }
+  ]
+};
+
+const mediumQuestionsVietnamVictory = {
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Chiến lược 'Chiến tranh đặc biệt' của Mỹ ở miền Nam Việt Nam được triển khai trong giai đoạn nào?",
+      "correct_answer": "1961-1965",
+      "incorrect_answers": [
+        "1954-1960",
+        "1965-1968",
+        "1970-1973"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân diễn ra vào năm nào?",
+      "correct_answer": "1968",
+      "incorrect_answers": [
+        "1965",
+        "1972",
+        "1975"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Ai là vị tướng chỉ huy Chiến dịch Hồ Chí Minh năm 1975?",
+      "correct_answer": "Văn Tiến Dũng",
+      "incorrect_answers": [
+        "Võ Nguyên Giáp",
+        "Nguyễn Chí Thanh",
+        "Trần Văn Trà"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Chiến thắng nào vào năm 1965 được coi là trận đánh mở đầu cao trào diệt Mỹ của Quân Giải phóng miền Nam?",
+      "correct_answer": "Trận Núi Thành",
+      "incorrect_answers": [
+        "Trận Ấp Bắc",
+        "Trận Bình Giã",
+        "Trận Vạn Tường"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Hiệp định Genève năm 1954 quy định thời điểm nào để tổ chức tổng tuyển cử thống nhất Việt Nam?",
+      "correct_answer": "Tháng 7 năm 1956",
+      "incorrect_answers": [
+        "Tháng 12 năm 1955",
+        "Tháng 3 năm 1957",
+        "Tháng 9 năm 1958"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Chiến dịch Tây Nguyên năm 1975 bắt đầu bằng trận đánh nào?",
+      "correct_answer": "Trận Buôn Ma Thuột",
+      "incorrect_answers": [
+        "Trận Pleiku",
+        "Trận Kon Tum",
+        "Trận Đắk Tô"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Chính phủ Cách mạng Lâm thời Cộng hòa miền Nam Việt Nam được thành lập vào năm nào?",
+      "correct_answer": "1969",
+      "incorrect_answers": [
+        "1960",
+        "1965",
+        "1973"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Chiến lược 'Việt Nam hóa chiến tranh' được Mỹ triển khai dưới thời Tổng thống nào?",
+      "correct_answer": "Richard Nixon",
+      "incorrect_answers": [
+        "John F. Kennedy",
+        "Lyndon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Trận đánh nào vào năm 1972 được gọi là 'Điện Biên Phủ trên không'?",
+      "correct_answer": "Trận Hà Nội",
+      "incorrect_answers": [
+        "Trận Quảng Trị",
+        "Trận Khe Sanh",
+        "Trận Huế"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "War",
+      "question": "Phong trào phá 'ấp chiến lược' ở miền Tây Nam Bộ đạt thắng lợi lớn vào năm nào?",
+      "correct_answer": "1964",
+      "incorrect_answers": [
+        "1960",
+        "1967",
+        "1970"
+      ]
+    }
+  ]
+};
+
+const hardQuestionsVietnamVictory = {
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Hội nghị nào của Đảng Cộng sản Việt Nam vào cuối năm 1965 đã quyết định 'kiên quyết đánh bại cuộc chiến tranh xâm lược của Mỹ trong bất kỳ tình huống nào'?",
+      "correct_answer": "Hội nghị Trung ương lần thứ 12, khóa III",
+      "incorrect_answers": [
+        "Hội nghị Trung ương lần thứ 9, khóa III",
+        "Hội nghị Trung ương lần thứ 15, khóa II",
+        "Hội nghị Trung ương lần thứ 7, khóa IV"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Trong Chiến dịch Hồ Chí Minh, mũi tiến công chính vào Sài Gòn được giao cho quân đoàn nào?",
+      "correct_answer": "Quân đoàn 2",
+      "incorrect_answers": [
+        "Quân đoàn 1",
+        "Quân đoàn 3",
+        "Quân đoàn 4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Trận đánh nào vào năm 1963 được coi là bước ngoặt làm suy yếu chiến lược 'Chiến tranh đặc biệt' của Mỹ?",
+      "correct_answer": "Trận Ấp Bắc",
+      "incorrect_answers": [
+        "Trận Ba Gia",
+        "Trận Đồng Xoài",
+        "Trận Vạn Tường"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Trong cuộc kháng chiến chống Mỹ, tổng lượng bom đạn Mỹ ném xuống Việt Nam ước tính khoảng bao nhiêu triệu tấn?",
+      "correct_answer": "15,35 triệu tấn",
+      "incorrect_answers": [
+        "7,66 triệu tấn",
+        "10,5 triệu tấn",
+        "20 triệu tấn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Ai là tác giả bài thơ 'Việt Nam máu và hoa' được sáng tác trong bối cảnh kháng chiến chống Mỹ?",
+      "correct_answer": "Tố Hữu",
+      "incorrect_answers": [
+        "Chế Lan Viên",
+        "Nguyễn Đình Thi",
+        "Xuân Diệu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Trong Chiến dịch Hồ Chí Minh, xe tăng mang số hiệu nào là chiếc đầu tiên húc đổ cổng Dinh Độc Lập?",
+      "correct_answer": "843",
+      "incorrect_answers": [
+        "390",
+        "705",
+        "602"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Tên của kế hoạch mà Mỹ sử dụng để ném bom miền Bắc Việt Nam từ năm 1964 đến 1968 là gì?",
+      "correct_answer": "Chiến dịch Sấm Rền",
+      "incorrect_answers": [
+        "Chiến dịch Cung tên",
+        "Chiến dịch B52",
+        "Chiến dịch Phượng Hoàng"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Trong cuộc Tổng tiến công Tết Mậu Thân 1968, thành phố nào bị Quân Giải phóng chiếm giữ lâu nhất?",
+      "correct_answer": "Huế",
+      "incorrect_answers": [
+        "Sài Gòn",
+        "Đà Nẵng",
+        "Cần Thơ"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Theo thống kê, bao nhiêu máy bay B52 của Mỹ bị bắn rơi trong trận 'Điện Biên Phủ trên không' năm 1972?",
+      "correct_answer": "34",
+      "incorrect_answers": [
+        "15",
+        "50",
+        "68"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "War",
+      "question": "Nghị quyết nào của Bộ Chính trị năm 1974 đã quyết định giải phóng miền Nam trong hai năm 1975-1976?",
+      "correct_answer": "Nghị quyết ngày 18/12/1974",
+      "incorrect_answers": [
+        "Nghị quyết ngày 15/9/1973",
+        "Nghị quyết ngày 20/3/1975",
+        "Nghị quyết ngày 10/6/1972"
+      ]
+    }
+  ]
+};
+
 const getRandomQuestions = (questions, amount) => {
   const shuffled = [...questions].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, amount);
@@ -390,20 +768,36 @@ const getRandomQuestions = (questions, amount) => {
 app.get('/api/questions', (req, res) => {
   const { amount = 10, category = '', difficulty = '' } = req.query;
   let questionPool = [];
-  if (difficulty === 'easy') {
-    questionPool = easyQuestions.results;
-  } else if (difficulty === 'medium') {
-    questionPool = mediumQuestions.results;
-  } else if (difficulty === 'hard') {
-    questionPool = hardQuestions.results;
-  } else {
-    questionPool = [
-      ...easyQuestions.results,
-      ...mediumQuestions.results,
-      ...hardQuestions.results
-    ];
+  if (category && category === 'History') {
+    if (difficulty === 'easy') {
+      questionPool = easyQuestions.results;
+    } else if (difficulty === 'medium') {
+      questionPool = mediumQuestions.results;
+    } else if (difficulty === 'hard') {
+      questionPool = hardQuestions.results;
+    } else {
+      questionPool = [
+        ...easyQuestions.results,
+        ...mediumQuestions.results,
+        ...hardQuestions.results
+      ];
+    }
+  } else if (category && category === 'War') {
+    if (difficulty === 'easy') {
+      questionPool = easyQuestionsVietnamVictory.results;
+    } else if (difficulty === 'medium') {
+      questionPool = mediumQuestionsVietnamVictory.results;
+    } else if (difficulty === 'hard') {
+      questionPool = hardQuestionsVietnamVictory.results;
+    } else {
+      questionPool = [
+        ...easyQuestionsVietnamVictory.results,
+        ...mediumQuestionsVietnamVictory.results,
+        ...hardQuestionsVietnamVictory.results
+      ];
+    }
   }
-  if (category && category !== 'History') {
+  else {
     return res.status(400).json({ response_code: 1, message: "Không tìm thấy danh mục" });
   }
   const selectedQuestions = getRandomQuestions(questionPool, Math.min(amount, questionPool.length));
