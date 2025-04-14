@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { motion } from 'framer-motion';
 import QuizContext from '../context/QuizContext';
 import he from 'he';
 
@@ -8,9 +9,14 @@ const Question = () => {
   const question = questions[currentQuestionIndex].question;
 
   return (
-    <div className="text-center mb-4">
-      <h2 className="text-2xl font-semibold">{he.decode(question)}</h2>
-    </div>
+    <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="text-center mb-4"
+    >
+      <h2 className="h2 text-dark">{he.decode(question)}</h2>
+    </motion.div>
   );
 };
 

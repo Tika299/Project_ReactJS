@@ -1,28 +1,18 @@
-import { useState } from 'react';
-import { useContext } from 'react';
+import { useState, useContext } from 'react';
 import { motion } from 'framer-motion';
 import QuizContext from '../context/QuizContext';
 import he from 'he';
 
-const shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-};
-
-const Answers = () => {
+const Answers = ({ setTimeLeft }) => {
   const { state, dispatch } = useContext(QuizContext);
   const currentQuestion = state.questions[state.currentQuestionIndex];
-  const correctAnswer = currentQuestion.correct_answer;
-  const allAnswers = shuffleArray([...currentQuestion.incorrect_answers, correctAnswer]);
-
+  const correctAnswer = he.decode(currentQuestion.correct_answer);
+  const shuffledAnswers = currentQuestion.shuffledAnswers.map((answer) => he.decode(answer));
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
 
   const handleAnswerSelection = (index) => {
     setSelectedAnswerIndex(index);
-    const selectedAnswer = allAnswers[index];
+    const selectedAnswer = shuffledAnswers[index];
     const isCorrect = selectedAnswer === correctAnswer;
 
     setTimeout(() => {
@@ -32,6 +22,7 @@ const Answers = () => {
       });
       if (state.currentQuestionIndex + 1 < state.questions.length) {
         dispatch({ type: 'NEXT_QUESTION' });
+        setTimeLeft(30); // Reset thời gian khi trả lời
       } else {
         dispatch({ type: 'FINISH_QUIZ' });
       }
@@ -40,21 +31,24 @@ const Answers = () => {
   };
 
   return (
-    <div className="flex flex-col space-y-2">
-      {allAnswers.map((answer, index) => {
-        let className = 'p-4 rounded-lg cursor-pointer bg-gray-200 hover:bg-gray-300';
-        if (selectedAnswerIndex === index) {
-          className += allAnswers[index] === correctAnswer ? ' bg-green-500' : ' bg-red-500';
-        }
+    <div className="d-flex flex-column">
+      {shuffledAnswers.map((answer, index) => {
+        let className = `btn btn-outline-primary mb-2 ${
+          selectedAnswerIndex === index
+            ? answer === correctAnswer
+              ? 'btn-success'
+              : 'btn-danger'
+            : ''
+        }`;
         return (
-          <motion.div
+          <motion.button
             key={index}
             whileHover={{ scale: 1.05 }}
             className={className}
             onClick={() => handleAnswerSelection(index)}
           >
             {he.decode(answer)}
-          </motion.div>
+          </motion.button>
         );
       })}
     </div>
