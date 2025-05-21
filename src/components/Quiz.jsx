@@ -5,6 +5,7 @@ import { fetchQuestions } from '../services/api';
 import Question from '../context/Question';
 import Answers from './Answers';
 import ProgressBar from './ProgressBar';
+import { useNavigate } from 'react-router-dom';
 
 const categories = [
   { name: 'All Categories', id: '' },
@@ -22,6 +23,7 @@ const Quiz = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [isNewHighScore, setIsNewHighScore] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30); // Bộ đếm thời gian 30 giây
+  const navigate = useNavigate();
 
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -121,15 +123,24 @@ const Quiz = () => {
               )}
             </AnimatePresence>
             <p className="mb-4">Điểm Cao Nhất: {state.highScore}</p>
-            <button
-              onClick={() => {
-                dispatch({ type: 'RESET_QUIZ' });
-                setIsNewHighScore(false);
-              }}
-              className="btn btn-success btn-lg"
-            >
-              Chơi Lại
-            </button>
+            <div className="d-flex justify-content-center gap-3">
+              <button
+                onClick={() => {
+                  dispatch({ type: 'RESET_QUIZ' });
+                  setIsNewHighScore(false);
+                }}
+                className="btn btn-success btn-lg"
+              >
+                Chơi Lại
+              </button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                className="btn btn-primary btn-lg"
+                onClick={() => navigate('/medal')}
+              >
+                Xem Huy Chương
+              </motion.button>
+            </div>
           </div>
         </div>
       );
